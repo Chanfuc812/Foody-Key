@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Food</string>
+    <string name="splash_text">Code by Khuong Viet Tai</string>
+    <string name="khuongviettai">Khuong Viet Tai</string>
+
+    // Tab Menu
+    <string name="home">Đồ ăn</string>
+    <string name="cart">Giỏ hàng</string>
+    <string name="feedback">Phản hồi</string>
+    <string name="contact">Liên hệ</string>
+    <string name="order">Lịch sử</string>
+
+    // action
+    <string name="action_ok">Đồng ý</string>
+    <string name="action_cancel">Hủy bỏ</string>
+
+    // dialog
+    <string name="waiting_message">Vui lòng đợi…</string>
+
+    // msg
+    <string name="error_not_connect_to_internet">Vui lòng kiểm tra kết nối mạng của bạn</string>
+    <string name="msg_exit_app">Bạn có muốn thoát ứng dụng?</string>
+
+    <string name="category_title">Danh mục</string>
+    <string name="food_suggest">Gợi ý món ăn</string>
+    <string name="food_detail_title">Chi tiết món ăn</string>
+    <string name="add_to_cart">Thêm vào giỏ hàng</string>
+    <string name="added_to_cart">Đã thêm vào giỏ hàng</string>
+    <string name="cancel">Hủy bỏ</string>
+    <string name="send_feedback_success">Gửi phản hồi thành công!</string>
+    <string name="name_require">Vui lòng nhập Họ và Tên</string>
+    <string name="comment_require">Vui lòng nhập phản hồi của bạn</string>
+    <string name="order_cart">Đặt Hàng</string>
+    <string name="total">Tổng Tiền:</string>
+    <string name="delete">Xóa</string>
+    <string name="confirm_delete_food">Xác nhận xóa khỏi giỏ hàng</string>
+    <string name="message_delete_food">Bạn có chắc chắn muốn xóa món ăn này không?</string>
+    <string name="dialog_cancel">Hủy</string>
+    <string name="order_detail">Chi tiết đơn hàng</string>
+    <string name="address_delivery">Địa chỉ giao hàng</string>
+    <string name="message_enter_infor_order">Vui lòng điền đầy đủ thông tin giao hàng</string>
+    <string name="hint_search_name">Tên món ăn…</string>
+    <string name="price_label">Giá:</string>
+    <string name="description_label">Mô tả</string>
+    <string name="more_image_label">Một số hình ảnh khác</string>
+    <string name="payment_method">Phương thức thanh toán</string>
+    <string name="payment_method_cash">Tiền mặt</string>
+    <string name="label_sub">-</string>
+    <string name="label_add">+</string>
+    <string name="label_quantity_1">1</string>
+    <string name="label_price_0">0 VNĐ</string>
+
+    <string name="feedback_name">Họ và Tên (*)</string>
+    <string name="feedback_email">Email</string>
+    <string name="feedback_phone">Số điện thoại</string>
+    <string name="feedback_comment">Bình luận (*)</string>
+    <string name="send_feedback">Gửi phản hồi</string>
+
+    <string name="label_id">Mã đơn hàng:</string>
+    <string name="label_name">Họ tên:</string>
+    <string name="label_phone">Số điện thoại:</string>
+    <string name="label_address">Địa chỉ nhận:</string>
+    <string name="label_price">Tổng tiền:</string>
+    <string name="label_date">Ngày đặt hàng:</string>
+    <string name="label_payment">Thanh toán:</string>
+    <string name="label_menu">Thực đơn:</string>
+    <string name="sign_in">Đăng nhập</string>
+    <string name="sign_up">Đăng ký</string>
+    <string name="password">Mật khẩu</string>
+    <string name="forgot_password">Quên mật khẩu?</string>
+    <string name="confirm_password">Xác nhận mật khẩu</string>
+    <string name="have_not_account">Bạn chưa có tài khoản?</string>
+    <string name="have_account">Bạn đã có tài khoản?</string>
+    <string name="email">E-mail</string>
+
+
+    <string name="status_new">Chờ xử lý</string>
+    <string name="status_cancel">Hủy đơn hàng</string>
+    <string name="status_process">Đang giao hàng</string>
+    <string name="status_success">Thành công</string>
+    <string name="status_fail">Thất bại</string>
+    <string name="quantity">Số lượng:</string>
+    <string name="list_food_order">Danh sách món ăn trong đơn hàng</string>
+
+    <string name="label_facebook">Facebook</string>
+    <string name="label_call">Call Phone</string>
+    <string name="label_gmail">Gmail</string>
+    <string name="label_skype">Skype</string>
+    <string name="label_youtube">Youtube</string>
+    <string name="label_zalo">Zalo</string>
+
+    <string name="msg_get_date_error">Lỗi đã xảy ra, vui lòng thử lại sau</string>
+    <string name="msg_order_success">Đặt hàng thành công, vui lòng check đơn hàng trong phần Lịch sử</string>
+    <string name="reset_password">Reset password</string>
+
+
+    <string name="msg_waiting_message">Please wait ...</string>
+    <string name="msg_email_require">Please enter your email</string>
+    <string name="msg_password_require">Please enter your password</string>
+    <string name="msg_email_invalid">Your email is invalid</string>
+    <string name="msg_sign_up_error">Registration failed, please try again</string>
+    <string name="msg_change_password_successfully">Change password successfully</string>
+    <string name="msg_reset_password_successfully">Password reset is successful, please check your email</string>
+    <string name="msg_old_password_require">Please enter old password</string>
+    <string name="msg_new_password_require">Please enter new password</string>
+    <string name="msg_confirm_password_require">Please enter confirm new password</string>
+    <string name="msg_old_password_invalid">Old password is incorrect</string>
+    <string name="msg_confirm_password_invalid">Confirm new password does not match</string>
+    <string name="msg_new_password_invalid">The new password is the same as the old password</string>
+
+
+    <string name="information_security">Information security</string>
+    <string name="information_security_content">Customer Information is stored until you request the Company to cancel, or you log in and cancel the information yourself. In all cases, Client Information is stored and secured on the Company\'s servers.</string>
+    <string name="msg_sign_in_error">Sign in failed, please try again</string>
+    <string name="msg_confirm_password">Two passwords do not match</string>
+
+    <!--  OnBoarding  -->
+    <string name="get_start">Get Start</string>
+
+</resources>
