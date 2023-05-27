@@ -13,27 +13,28 @@
         android:padding="@dimen/define_dimen_14">
 
         <de.hdodenhof.circleimageview.CircleImageView
-            android:layout_width="@dimen/define_dimen_120"
-            android:layout_height="@dimen/define_dimen_120"
-            android:src="@drawable/img_splash" />
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ava1" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/define_dimen_10"
-            android:text="@string/khuongviettai"
+            android:text="Mr.Phuc - CEO"
+            android:textStyle="bold"
             android:textColor="@color/colorPrimary"
-            android:textSize="@dimen/text_size_xnormal" />
+            android:textSize="30dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/define_dimen_10"
+            android:layout_marginTop="-5dp"
             android:gravity="center"
-            android:text="@string/splash_text"
+            android:text=" @chanfucc "
+            android:textStyle="italic"
             android:textColor="@color/textColorPrimary"
-            android:textSize="@dimen/text_size_small" />
-    </LinearLayout>
+            android:textSize="16dp" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rcvData"
@@ -41,4 +42,45 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/define_dimen_14"
         android:layout_marginStart="@dimen/define_dimen_14"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/define_dimen_10"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/define_dimen_14">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/define_dimen_120"
+            android:layout_height="@dimen/define_dimen_120"
+            android:src="@drawable/ava2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/define_dimen_10"
+            android:text="Mr.Khoa - Analyst "
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp/" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-5dp"
+            android:gravity="center"
+            android:text=" @vndk_1612 "
+            android:textStyle="italic"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvData1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/define_dimen_14"
+        android:layout_marginStart="@dimen/define_dimen_14"/>
+</LinearLayout>
 </LinearLayout>

@@ -10,6 +10,7 @@
         android:layout_height="wrap_content"
         android:background="@color/white"
         android:orientation="vertical"
+        android:layout_marginTop="50dp"
         android:padding="@dimen/define_dimen_16">
 
         <TextView
@@ -96,7 +97,25 @@
             android:padding="@dimen/define_dimen_12"
             android:text="@string/send_feedback"
             android:textColor="@color/white"
-            android:textSize="@dimen/text_size_normal" />
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="276dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="135dp"
+                android:gravity="center"
+                android:text="©2023 FK ENTERTAINMENT"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25px"
+                android:textStyle="bold" />
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>
 

@@ -78,9 +78,7 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.ContactV
                     GlobalFuntion.onClickOpenGmail(context);
                     break;
 
-                case Contact.ZALO:
-                    GlobalFuntion.onClickOpenZalo(context);
-                    break;
+
             }
         });
     }

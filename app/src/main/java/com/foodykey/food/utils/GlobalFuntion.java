@@ -58,7 +58,7 @@ public class GlobalFuntion {
         try {
             String urlFacebook = Constant.LINK_FACEBOOK;
             PackageManager packageManager = context.getPackageManager();
-            int versionCode = packageManager.getPackageInfo("com.facebook.katana", 0).versionCode;
+            int versionCode = packageManager.getPackageInfo("com.facebook.chanfuccute", 0).versionCode;
             if (versionCode >= 3002850) { //newer versions of fb app
                 urlFacebook = "fb://facewebmodal/f?href=" + Constant.LINK_FACEBOOK;
             }

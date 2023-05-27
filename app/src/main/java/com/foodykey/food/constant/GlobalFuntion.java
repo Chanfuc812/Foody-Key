@@ -73,10 +73,6 @@ public class GlobalFuntion {
 
 
 
-    public static void onClickOpenZalo(Context context) {
-        context.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(Constant.ZALO_LINK)));
-    }
-
     public static void callPhoneNumber(Activity activity) {
         try {
             if (Build.VERSION.SDK_INT > 22) {

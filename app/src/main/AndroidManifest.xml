@@ -26,6 +26,7 @@
         android:supportsRtl="false"
         android:theme="@style/AppTheme"
         android:dataExtractionRules="@xml/data_extraction_rules"
+        android:usesCleartextTraffic="true"
         tools:targetApi="s">
         <activity android:name="com.foodykey.food.activity.SplashActivity"
             android:exported="true">

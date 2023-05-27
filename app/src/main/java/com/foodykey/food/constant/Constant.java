@@ -5,10 +5,10 @@ public interface Constant {
     String GENERIC_ERROR = "General error, please try again later";
 
 
-    String LINK_FACEBOOK = "https://www.facebook.com/khuongviettai";
+    String LINK_FACEBOOK = "https://www.facebook.com/chanfuccute";
 
-    String PHONE_NUMBER = "+84945034118";
-    String GMAIL = "khuongtai789@gmail.com";
+    String PHONE_NUMBER = "+84926547935";
+    String GMAIL = "nguoispecial@gmail.com";
 
     String ZALO_LINK = "https://zalo.me/0945034118";
 

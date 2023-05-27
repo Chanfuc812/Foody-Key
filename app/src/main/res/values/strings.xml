@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Food</string>
-    <string name="splash_text">Code by Khuong Viet Tai</string>
-    <string name="khuongviettai">Khuong Viet Tai</string>
 
     // Tab Menu
     <string name="home">Đồ ăn</string>
@@ -55,7 +53,7 @@
     <string name="feedback_email">Email</string>
     <string name="feedback_phone">Số điện thoại</string>
     <string name="feedback_comment">Bình luận (*)</string>
-    <string name="send_feedback">Gửi phản hồi</string>
+    <string name="send_feedback">GỬI PHẢN HỒI</string>
 
     <string name="label_id">Mã đơn hàng:</string>
     <string name="label_name">Họ tên:</string>

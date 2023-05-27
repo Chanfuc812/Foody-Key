@@ -43,9 +43,6 @@ public class ContactFragment extends BaseFragment {
         contactArrayList.add(new Contact(Contact.FACEBOOK, R.drawable.ic_facebook));
         contactArrayList.add(new Contact(Contact.HOTLINE, R.drawable.ic_hotline));
         contactArrayList.add(new Contact(Contact.GMAIL, R.drawable.ic_gmail));
-
-        contactArrayList.add(new Contact(Contact.ZALO, R.drawable.ic_zalo));
-
         return contactArrayList;
     }
 

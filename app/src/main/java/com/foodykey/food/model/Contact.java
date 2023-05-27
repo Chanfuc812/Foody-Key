@@ -6,9 +6,6 @@ public class Contact {
     public static final int HOTLINE = 1;
     public static final int GMAIL = 2;
 
-
-    public static final int ZALO = 5;
-
     private int id;
     private int image;
 
