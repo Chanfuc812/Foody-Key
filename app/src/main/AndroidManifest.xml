@@ -43,7 +43,13 @@
             android:name="com.foodykey.food.activity.SignUpActivity"
             android:exported="false" />
         <activity
+            android:name="com.foodykey.food.activity.ForgotPasswordActivity"
+            android:exported="false"/>
+        <activity
             android:name="com.foodykey.food.activity.MainActivity"
+            android:exported="false"/>
+        <activity
+            android:name="com.foodykey.food.activity.FoodDetailActivity"
             android:exported="false"/>
 
     </application>

@@ -93,7 +93,7 @@
                     android:layout_marginBottom="@dimen/define_dimen_5"
                     android:text="@string/food_suggest"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="@dimen/text_size_normal"
+                    android:textSize="@dimen/dimen_20"
                     android:textStyle="bold" />
 
                 <androidx.recyclerview.widget.RecyclerView

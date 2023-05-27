@@ -23,7 +23,7 @@
     <string name="msg_exit_app">Bạn có muốn thoát ứng dụng?</string>
 
     <string name="category_title">Danh mục</string>
-    <string name="food_suggest">Gợi ý món ăn</string>
+    <string name="food_suggest">Có thể bạn sẽ thích👇</string>
     <string name="food_detail_title">Chi tiết món ăn</string>
     <string name="add_to_cart">Thêm vào giỏ hàng</string>
     <string name="added_to_cart">Đã thêm vào giỏ hàng</string>
@@ -40,7 +40,7 @@
     <string name="order_detail">Chi tiết đơn hàng</string>
     <string name="address_delivery">Địa chỉ giao hàng</string>
     <string name="message_enter_infor_order">Vui lòng điền đầy đủ thông tin giao hàng</string>
-    <string name="hint_search_name">Tên món ăn…</string>
+    <string name="hint_search_name">Tìm món ăn/đồ uống mà bạn muốn</string>
     <string name="price_label">Giá:</string>
     <string name="description_label">Mô tả</string>
     <string name="more_image_label">Một số hình ảnh khác</string>
@@ -72,7 +72,7 @@
     <string name="confirm_password">Xác nhận mật khẩu</string>
     <string name="have_not_account">Bạn chưa có tài khoản?</string>
     <string name="have_account">Bạn đã có tài khoản?</string>
-    <string name="email">E-mail</string>
+    <string name="email">Tên đăng nhập/E-mail </string>
 
 
     <string name="status_new">Chờ xử lý</string>
@@ -92,7 +92,7 @@
 
     <string name="msg_get_date_error">Lỗi đã xảy ra, vui lòng thử lại sau</string>
     <string name="msg_order_success">Đặt hàng thành công, vui lòng check đơn hàng trong phần Lịch sử</string>
-    <string name="reset_password">Reset password</string>
+    <string name="reset_password">Lấy lại mật khẩu</string>
 
 
     <string name="msg_waiting_message">Please wait ...</string>

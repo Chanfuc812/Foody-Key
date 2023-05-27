@@ -16,9 +16,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/sign_up"
+            android:text="@string/sign_in"
             android:fontFamily="@font/bungee_regular"
             android:textSize="40sp"
+            android:textStyle="bold"
             android:layout_marginTop="@dimen/dimen_70"
             android:layout_marginStart="@dimen/dimen_20"
             />
@@ -54,8 +55,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/email"
                     android:layout_marginLeft="@dimen/dimen_40"
-                    android:layout_marginTop="@dimen/dimen_5"
-                    />
+                    android:layout_marginTop="@dimen/dimen_5" />
             </RelativeLayout>
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -101,6 +101,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/forgot_password"
                         android:textColor="@color/red"
+                        android:textStyle="bold|italic"
                         android:textSize="@dimen/dimen_14"/>
                     <ImageView
                         android:layout_gravity="center"
@@ -114,11 +115,12 @@
                 android:layout_marginTop="@dimen/dimen_10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bg_brown_shape_corner_6"
+                android:background="@drawable/bg_yellow_shape_corner_6"
                 android:layout_marginStart="@dimen/dimen_20"
                 android:layout_marginEnd="@dimen/dimen_20"
                 android:text="@string/sign_in"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
+                android:textStyle="bold"
                 android:textSize="@dimen/dimen_18"/>
 
 
@@ -147,6 +149,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/dimen_6"
             android:text="@string/sign_up"
+            android:textStyle="bold"
             android:textColor="@color/yellow"
             android:textSize="@dimen/dimen_14" />
     </LinearLayout>
