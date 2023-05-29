@@ -10,9 +10,16 @@
         android:layout_height="wrap_content"
         android:background="@color/white"
         android:orientation="vertical"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="25dp"
         android:padding="@dimen/define_dimen_16">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_height="wrap_content"
+            android:textSize="18.5dp"
+            android:textStyle="bold"
+            android:text="Hãy cho chúng tôi biết cảm nhận, đánh giá của bạn về việc thưởng thức sản phẩm. Chúng tôi sẽ cố gắng khắc phục và luôn đem lại những điều tuyệt vời hơn đến với bạn 💌"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -109,11 +116,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="135dp"
+                android:layout_marginBottom="80dp"
                 android:gravity="center"
                 android:text="©2023 FK ENTERTAINMENT"
-                android:textColor="@color/colorPrimary"
-                android:textSize="25px"
+                android:textColor="@color/orangePrimary"
+                android:textSize="30px"
                 android:textStyle="bold" />
         </LinearLayout>
     </LinearLayout>
