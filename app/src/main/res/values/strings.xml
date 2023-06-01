@@ -30,12 +30,12 @@
     <string name="name_require">Vui lòng nhập Họ và Tên</string>
     <string name="comment_require">Vui lòng nhập phản hồi của bạn</string>
     <string name="order_cart">Đặt Hàng</string>
-    <string name="total">Tổng Tiền:</string>
+    <string name="total">TỔNG TIỀN:</string>
     <string name="delete">Xóa</string>
     <string name="confirm_delete_food">Xác nhận xóa khỏi giỏ hàng</string>
     <string name="message_delete_food">Bạn có chắc chắn muốn xóa món ăn này không?</string>
     <string name="dialog_cancel">Hủy</string>
-    <string name="order_detail">Chi tiết đơn hàng</string>
+    <string name="order_detail">CHI TIẾT ĐƠN HÀNG</string>
     <string name="address_delivery">Địa chỉ giao hàng</string>
     <string name="message_enter_infor_order">Vui lòng điền đầy đủ thông tin giao hàng</string>
     <string name="hint_search_name">Tìm món ăn/đồ uống mà bạn muốn</string>
@@ -44,6 +44,8 @@
     <string name="more_image_label">Một số hình ảnh khác</string>
     <string name="payment_method">Phương thức thanh toán</string>
     <string name="payment_method_cash">Tiền mặt</string>
+    <string name="payment_method_cash1">Chuyển khoản</string>
+    <string name="payment_method_cash2">Khác</string>
     <string name="label_sub">-</string>
     <string name="label_add">+</string>
     <string name="label_quantity_1">1</string>
@@ -62,7 +64,7 @@
     <string name="label_price">Tổng tiền:</string>
     <string name="label_date">Ngày đặt hàng:</string>
     <string name="label_payment">Thanh toán:</string>
-    <string name="label_menu">Thực đơn:</string>
+    <string name="label_menu">Đơn hàng:</string>
     <string name="sign_in">Đăng nhập</string>
     <string name="sign_up">Đăng ký</string>
     <string name="password">Mật khẩu</string>
@@ -97,9 +99,9 @@
     <string name="msg_email_require">Please enter your email</string>
     <string name="msg_password_require">Please enter your password</string>
     <string name="msg_email_invalid">Your email is invalid</string>
-    <string name="msg_sign_up_error">Registration failed, please try again</string>
-    <string name="msg_change_password_successfully">Change password successfully</string>
-    <string name="msg_reset_password_successfully">Password reset is successful, please check your email</string>
+    <string name="msg_sign_up_error">Password must be 6 characters or more, please try again!</string>
+    <string name="msg_change_password_successfully">Change password successfully!</string>
+    <string name="msg_reset_password_successfully">Password reset is successful, please check your email!</string>
     <string name="msg_old_password_require">Please enter old password</string>
     <string name="msg_new_password_require">Please enter new password</string>
     <string name="msg_confirm_password_require">Please enter confirm new password</string>
@@ -110,8 +112,8 @@
 
     <string name="information_security">Information security</string>
     <string name="information_security_content">Customer Information is stored until you request the Company to cancel, or you log in and cancel the information yourself. In all cases, Client Information is stored and secured on the Company\'s servers.</string>
-    <string name="msg_sign_in_error">Sign in failed, please try again</string>
-    <string name="msg_confirm_password">Two passwords do not match</string>
+    <string name="msg_sign_in_error">Sign in failed, please try again!</string>
+    <string name="msg_confirm_password">Two passwords do not match!</string>
 
     <!--  OnBoarding  -->
     <string name="get_start">Get Start</string>

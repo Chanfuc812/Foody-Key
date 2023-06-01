@@ -52,7 +52,6 @@
         <activity
             android:name="com.foodykey.food.activity.FoodDetailActivity"
             android:exported="false"/>
-
     </application>
 
 </manifest>

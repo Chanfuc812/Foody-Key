@@ -51,15 +51,35 @@
         android:text="@string/payment_method"
         android:textSize="@dimen/text_size_small" />
 
-    <TextView
-        android:layout_width="match_parent"
+    <RadioGroup
+        android:id="@+id/paymentGroup"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/black"
-        android:text="@string/payment_method_cash"
-        android:background="@drawable/bg_white_shape_border_gray"
-        android:padding="@dimen/define_dimen_12"
-        android:layout_marginTop="@dimen/define_dimen_5"
-        android:textSize="@dimen/text_size_small" />
+        android:layout_below="@+id/cashmethodLabel"
+        android:orientation="horizontal">
+
+    <RadioButton
+        android:id="@+id/cashRadio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/payment_method_cash" />
+
+    <RadioButton
+        android:id="@+id/bankingRadio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="@string/payment_method_cash1" />
+
+
+        <RadioButton
+            android:id="@+id/otherRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/payment_method_cash2" />
+    </RadioGroup>
+
 
     <TextView
         android:layout_width="wrap_content"

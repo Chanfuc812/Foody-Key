@@ -56,12 +56,6 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.ContactV
             case Contact.GMAIL:
                 holder.mItemContactBinding.tvContact.setText(context.getString(R.string.label_gmail));
                 break;
-
-
-
-            case Contact.ZALO:
-                holder.mItemContactBinding.tvContact.setText(context.getString(R.string.label_zalo));
-                break;
         }
 
         holder.mItemContactBinding.layoutItem.setOnClickListener(v -> {
