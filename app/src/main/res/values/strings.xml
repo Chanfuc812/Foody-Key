@@ -3,11 +3,11 @@
     <string name="app_name">Food</string>
 
     // Tab Menu
-    <string name="home">Đồ ăn</string>
-    <string name="cart">Giỏ hàng</string>
-    <string name="feedback">Phản hồi</string>
-    <string name="contact">Liên hệ</string>
-    <string name="order">Lịch sử</string>
+    <string name="home">SẢN PHẨM</string>
+    <string name="cart">GIỎ HÀNG</string>
+    <string name="feedback">PHẢN HỒI</string>
+    <string name="contact">LIÊN HỆ</string>
+    <string name="order">LỊCH SỬ</string>
 
     // action
     <string name="action_ok">Đồng ý</string>
