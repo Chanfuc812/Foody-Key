@@ -14,7 +14,7 @@ public interface Constant {
 
     String FIREBASE_URL = "https://foody-key-default-rtdb.asia-southeast1.firebasedatabase.app/";
 
-    String CURRENCY = " 000 VNĐ";
+    String CURRENCY = "000 VNĐ";
     int TYPE_PAYMENT_CASH = 1;
     String PAYMENT_METHOD_CASH = " Đã thanh toán ";
 

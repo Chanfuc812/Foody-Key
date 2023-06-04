@@ -77,7 +77,7 @@ public class SignUpActivity extends BaseActivity {
                         if (user != null) {
                             User userObject = new User(user.getEmail(), password);
                             DataStoreManager.setUser(userObject);
-                            GlobalFuntion.startActivity(SignUpActivity.this, MainActivity.class);
+                            GlobalFuntion.startActivity(SignUpActivity.this, SignInActivity.class);
                             finishAffinity();
                         }
                     } else {
